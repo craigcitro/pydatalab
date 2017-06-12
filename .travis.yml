@@ -10,6 +10,8 @@ matrix:
     env: TOX_ENV=py35
   - python: 2.7
     env: TOX_ENV=flake8
+  - python: 2.7
+    env: TOX_ENV=coveralls
 
 before_install:
   - npm install -g typescript
